@@ -16,7 +16,6 @@ export default function Home() {
         <Image src={"/logo.png"} className="h-24 pt-2 w-24 mix-blend-multiply" height={200} alt="not exist image" width={200} />
         <ul className="flex px-4 hidden ">
           <li>Home</li>
-          <li>Contact</li>
           <li>Project</li>
           <li>About us</li>
         </ul>
