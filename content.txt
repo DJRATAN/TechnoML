@@ -1,0 +1,40 @@
+
+
+
+npx shadcn-ui@latest init
+npx shadcn-ui@latest add card      
+npm i react-icons
+npx shadcn-ui@latest add button     
+npx shadcn-ui@latest add form     
+npx shadcn-ui@latest add input     
+npm i @prisma/client
+npx prisma init
+npx prisma generate
+npx prisma db push 
+npm install @auth/prisma-adapter
+npm i bcrypt
+npm i -D @types/bcrypt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
