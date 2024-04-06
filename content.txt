@@ -14,7 +14,7 @@ npx prisma db push
 npm install @auth/prisma-adapter
 npm i bcrypt
 npm i -D @types/bcrypt
-
+npm install next-auth@beta
 
 
 
