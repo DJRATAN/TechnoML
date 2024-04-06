@@ -28,6 +28,7 @@ export const register = async (values: a.infer<typeof RegisterSchema>) => {
             password: hashedPassword,
         }
     })
+    
     // ToDo: Send verification token email
 
     return { success: "User created" }
