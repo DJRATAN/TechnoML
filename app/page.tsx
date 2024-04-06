@@ -28,7 +28,7 @@ export default function Home() {
         </div>
 
       </nav>
-      <main className="flex h-full flex-col items-center justify-center bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-600 to-blue-950">
+      <main className="flex h-full flex-col items-center justify-center bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-300 to-blue-950">
         <div className="space-y-6 text-center">
           <h1 className={cn("text-6xl font-semibold text-white drop-shadow-md", font.className)}>TechnoML</h1>
           <p className="text-white text-lg">Service Provided</p>
