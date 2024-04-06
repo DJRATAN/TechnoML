@@ -9,10 +9,10 @@ const font = Poppins({
 export default function Home() {
 
   return (
-    <div className="h-full">
-      <nav className=" w-full h-16 flex justify-evenly text-center bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-pink-600 to-red-950">
-        <img src="/logo.png" alt="" />
-        <ul className="flex mx-4">
+    <div className="h-full bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-100  to-blue-400">
+      <nav className=" w-full h-20 flex justify-evenly items-center ">
+        <img src="/logo.png" alt="" className="h-24 pt-2 w-24 mix-blend-multiply" />
+        <ul className="flex px-4">
           <li>Home</li>
           <li>Contact</li>
           <li>Project</li>
@@ -28,10 +28,10 @@ export default function Home() {
         </div>
 
       </nav>
-      <main className="flex h-full flex-col items-center justify-center bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-300 to-blue-950">
+      <main className="flex h-full flex-col items-center justify-center ">
         <div className="space-y-6 text-center">
-          <h1 className={cn("text-6xl font-semibold text-white drop-shadow-md", font.className)}>TechnoML</h1>
-          <p className="text-white text-lg">Service Provided</p>
+          <h1 className={cn("text-6xl font-semibold text-white drop-shadow-md", font.className)}>Techno<strong>ML</strong></h1>
+          <p className="text-white text-lg">Web Service Providing</p>
         </div>
       </main>
     </div>
