@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { LoginButton } from "@/components/auth/login-button";
 import { RegisterButton } from "@/components/auth/register-button";
+import Image from "next/image";
 const font = Poppins({
   subsets: ["latin"],
   weight: ["600"]
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <div className="h-full bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-100  to-blue-400">
       <nav className=" w-full h-20 flex items-center justify-evenly">
-        <img src="/logo.png" alt="" className="h-24 pt-2 w-24 mix-blend-multiply" />
+        <Image src={"/logo.png"} className="h-24 pt-2 w-24 mix-blend-multiply" height={200} alt="not fetching" width={200} />
         <ul className="flex px-4 hidden ">
           <li>Home</li>
           <li>Contact</li>
