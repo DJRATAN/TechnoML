@@ -14,7 +14,7 @@ export default function Home() {
     <div className="h-full bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-100  to-blue-400">
       <nav className=" w-full h-20 flex items-center justify-evenly">
         <Image src={"/logo.png"} className="h-24 pt-2 w-24 mix-blend-multiply" height={200} alt="not exist image" width={200} />
-        <ul className="flex px-4 hidden ">
+        <ul className="flex px-4">
           <li>Home</li>
           <li>Project</li>
           <li>About us</li>
