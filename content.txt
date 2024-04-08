@@ -19,9 +19,10 @@ npx auth secret
 npm install @auth/prisma-adapter
 
 
-
-
-
+npx --no-install next build
+npm install mock-aws-s3 aws-sdk nock
+npx prisma studio
+npx prisma migrate reset
 
 
 
